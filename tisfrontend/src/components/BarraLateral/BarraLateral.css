@@ -1,0 +1,17 @@
+.sidebar {
+  height: calc(100vh - 128px);
+  position: fixed;
+  top: 128px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  z-index: 1;
+}
+
+@media (width <= 768px) {
+  .sidebar {
+    height: 100%;
+    top: 0px;
+    z-index: 30;
+  }
+}

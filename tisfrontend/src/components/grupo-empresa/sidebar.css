@@ -1,0 +1,106 @@
+.content-container {
+  display: flex;
+}
+
+.sidebar-container {
+  background-color: #00223d;
+  color: white;
+  font-weight: bold;
+  min-width: 300px;
+  padding: 40px 15px 15px 15px;
+}
+
+.logotipo-grupoempresa {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 30px;
+}
+
+.logotipo-grupoempresa img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #99aab7;
+}
+
+.logotipo-grupoempresa p {
+  margin-left: 20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.aside-head {
+  margin-bottom: 10px;
+}
+
+.nav-aside {
+  display: flex;
+  align-items: center;
+}
+
+.nav-submenu {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.submenu {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.nav-aside img {
+  height: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 1px;
+}
+
+.sidebar-container > div {
+  background-color: #002a4c;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar-container ul {
+  margin-right: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.conteiner-nav {
+  padding: 15px 10px;
+  margin: 10px 0;
+}
+
+.sidebar-container li {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.sidebar-container a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-container a:hover {
+  background-color: #335570;
+}
+
+.sidebar-container .menu-group > ul {
+  margin-left: 10px;
+  padding-left: 15px;
+}
+
+.active {
+  background-color: #0055aa;
+  font-weight: bold;
+}
+
+.sidebar-container > .line {
+  background-color: #99aab7;
+  height: 1px;
+}

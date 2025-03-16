@@ -1,0 +1,10 @@
+.background {
+  /*background-image: url(../assets/img/background-blur-umss-d.jpg);*/
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  background-color: white;
+
+  min-width: calc(100% - 288px);
+  min-height: calc(100vh - 128px);
+}

@@ -1,0 +1,98 @@
+.registro-container {
+  background-color: #d9d9d9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  color: #1e293b;
+  margin: auto;
+}
+
+.registro-container h2 {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.form-register-empresa {
+  display: flex;
+}
+
+.colum-register {
+  width: 50%;
+  padding: 0 25px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  text-align: start;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #1f2937;
+  border-radius: 9px;
+}
+
+.button {
+  background-color: #1f2937;
+  color: white;
+  width: 90%;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imagen-upload {
+  background-image: url("../../assets/empresa/select-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  min-width: 100px;
+  max-width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.form-group div {
+  display: flex;
+  align-items: center;
+}
+.form-group .upload {
+  border: none;
+  display: flex;
+}
+
+.form-code {
+  margin-top: 25px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #1f2937;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.form-code p {
+  margin-left: 30px;
+  background-color: #1e293b;
+  color: #d9d9d9;
+  padding: 5px 10px 5px 20px;
+  border-radius: 8px;
+}
+
+.copy-button {
+  margin-left: 4px;
+}

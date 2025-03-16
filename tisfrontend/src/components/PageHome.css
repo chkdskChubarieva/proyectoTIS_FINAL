@@ -1,0 +1,21 @@
+.background {
+  background-image: url(../assets/img/background-umss.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background-b {
+  background-image: url(../assets/img/background-blur-umss.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header .fila-1 {
+  background-blend-mode: multiply;
+  background-image: url(../assets/img/background-header.png),
+    linear-gradient(56deg, #002a4c 76%, #e30613 100%) !important;
+}

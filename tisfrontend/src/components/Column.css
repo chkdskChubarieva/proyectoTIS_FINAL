@@ -1,0 +1,40 @@
+.column {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 20rem;
+  flex-shrink: 0;
+}
+
+.column-header {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.column-indicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: #4f46e5;
+  margin-right: 0.5rem;
+}
+
+.task-count {
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.column-drop-zone {
+  min-height: calc(100vh - 12rem);
+  transition: background-color 0.2s;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.column-drop-zone.dragging-over {
+  background-color: #e0e7ff;
+}

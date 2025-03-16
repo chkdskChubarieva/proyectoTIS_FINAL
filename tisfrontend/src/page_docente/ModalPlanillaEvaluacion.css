@@ -1,0 +1,55 @@
+.modal {
+  max-height: 95dvh;
+  min-width: 60dvw;
+  max-width: 90dvw;
+  overflow-y: auto;
+}
+
+.modal-nota {
+  max-height: 95dvh;
+  min-width: 60dvw;
+  max-width: 75dvw;
+  overflow-y: auto;
+}
+
+.modal-evaluacion {
+  max-height: 95dvh;
+  overflow-y: auto;
+}
+
+.seccion-rubrica {
+  max-height: 70dvh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.seccion-rubrica-nota {
+  max-height: 70dvh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.seccion-niveles {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Para navegadores que soportan appearance */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: none; /* Chrome, Safari, Opera */
+  appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Eliminar spinners en Chrome, Safari, Edge y Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

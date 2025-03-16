@@ -1,0 +1,15 @@
+.layout-main {
+  position: relative;
+  width: calc(100% - 288px);
+  top: 128px;
+  left: 288px;
+  /* z-index: -10; */
+  z-index: 0;
+}
+
+@media (width <= 768px) {
+  .layout-main {
+    width: 100%;
+    left: 0;
+  }
+}

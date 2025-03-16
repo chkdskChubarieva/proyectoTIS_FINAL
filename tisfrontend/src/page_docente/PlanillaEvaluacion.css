@@ -1,0 +1,39 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #dddddd;
+  border-radius: 0.75rem;
+}
+
+th,
+td,
+tr {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr td:first-child {
+  text-align: left;
+}
+
+.fecha-entregable {
+  min-width: 60px;
+}
+
+.fecha-entregable tr {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  border: none;
+}
+
+.asistencia tr {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}

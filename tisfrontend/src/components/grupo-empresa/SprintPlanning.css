@@ -1,0 +1,90 @@
+.sprint-planning {
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.titulos {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.task-table {
+  display: flex;
+  gap: 0px;
+  margin: 0 40px;
+}
+
+.main-content {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.column-process {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid rgb(81, 81, 81);
+  background-color: #f9f9f9;
+}
+
+.titulo-task-user {
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.user-story,
+.assignees,
+.task-card {
+  border: 1px solid #e5e5e5;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  margin-left: 15px;
+
+  margin-right: 15px;
+}
+.user-story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-story {
+  border-radius: 7px;
+}
+
+.button-story:hover {
+  filter: brightness(1.2);
+}
+
+.status-dropdown {
+  margin-top: 10px;
+}
+
+.task-card select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.story-divider {
+  border: 0;
+  height: 1px;
+  background-color: #ccc; /* Adjust color as needed */
+  width: 100%;
+  margin: 10px 0;
+}
+
+.story-section {
+  width: 100%; /* Ensures each section takes up the full width of the column */
+}

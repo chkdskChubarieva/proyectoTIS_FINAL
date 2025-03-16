@@ -1,0 +1,103 @@
+/* ModalTarea.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  width: 100%;
+}
+
+.modal-content {
+  background-color: #d9d9d9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 700px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal-content form {
+  display: grid;
+  gap: 15px;
+}
+
+.modal-content label {
+  font-size: 0.9rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.container-user-task {
+  display: flex;
+}
+
+.button-estudent {
+  margin-right: 20px;
+}
+
+.modal-content input[type="number"],
+.modal-content input[type="text"],
+.modal-content textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+.modal-content button[type="submit"] {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+  width: 250px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button[type="button"] {
+  background-color: #e5e5e5;
+  color: #1f2937;
+  border: 2px solid #1f2937;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 230px;
+  margin-left: 20px;
+}
+
+.modal-content button[type="button"]:hover {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.modal-content button[type="submit"]:hover {
+  background-color: #00204d;
+}
+
+.container-button-tarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
